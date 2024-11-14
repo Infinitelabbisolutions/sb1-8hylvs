@@ -5,9 +5,9 @@ import { Linkedin, Mail } from 'lucide-react';
 export default function Team() {
   const executives = [
     {
-      name: "Carlos Silva",
+      name: "Lukas Rique",
       role: "CEO & Fundador",
-      image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80",
+      image: "https://media.licdn.com/dms/image/v2/D4E03AQHeLU3nohGP1g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1693583164008?e=1736985600&v=beta&t=xRmvFPhj742A4laxKGejNvRqUuusnFvg-Mshee4lU_8",
       description: "25 anos de experiência no mercado financeiro, especialista em gestão de patrimônio.",
       linkedin: "#",
       email: "carlos.silva@lcoinvest.com.br"
@@ -17,7 +17,7 @@ export default function Team() {
       role: "Diretora de Investimentos",
       image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80",
       description: "Especialista em análise de mercado com mais de 15 anos de experiência.",
-      linkedin: "#",
+      linkedin: "https://www.linkedin.com/in/lukas-rique-cga-3a9b9ba4/",
       email: "ana.santos@lcoinvest.com.br"
     },
     {

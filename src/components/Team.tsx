@@ -3,10 +3,10 @@ import React from 'react';
 export default function Team() {
   const team = [
     {
-      name: "Carlos Silva",
+      name: "Lukas Rique",
       role: "CEO & Fundador",
-      image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80",
-      description: "25 anos de experiência no mercado financeiro"
+      image: "https://media.licdn.com/dms/image/v2/D4E03AQHeLU3nohGP1g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1693583164008?e=1736985600&v=beta&t=xRmvFPhj742A4laxKGejNvRqUuusnFvg-Mshee4lU_8",
+      description: "10 anos de experiência no mercado financeiro"
     },
     {
       name: "Ana Santos",
