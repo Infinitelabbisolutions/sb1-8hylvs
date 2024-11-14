@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import FinancialTicker from './components/FinancialTicker';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
@@ -16,7 +17,8 @@ function App() {
     <BrowserRouter>
       <div className="min-h-screen bg-white flex flex-col">
         <Navbar />
-        <main className="flex-grow">
+        <FinancialTicker />
+        <main className="flex-grow pt-8">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/sobre" element={<About />} />
